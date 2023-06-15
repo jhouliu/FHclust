@@ -1,0 +1,5 @@
+useDynLib(FHclust, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
+S3method(print, FHclust)
+S3method(summary, FHclust)
